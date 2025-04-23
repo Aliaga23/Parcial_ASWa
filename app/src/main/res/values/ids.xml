@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="listViewTipos" type="id" />
+    <item name="listViewEstaciones" type="id" />
+    <item name="listViewBombas" type="id" />
+</resources>
