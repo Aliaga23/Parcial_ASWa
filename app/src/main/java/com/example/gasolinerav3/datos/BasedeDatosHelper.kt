@@ -67,6 +67,20 @@ class BaseDatosHelper(context: Context) :
         db.execSQL(crearBomba)
         db.execSQL(crearStockCombustible)
         db.execSQL(crearFila)
+ // Tipos de combustible
+        db.execSQL("INSERT INTO TipoCombustible (nombre) VALUES ('Gasolina');")
+        db.execSQL("INSERT INTO TipoCombustible (nombre) VALUES ('Diesel');")
+
+        // Estaciones
+        db.execSQL("INSERT INTO Estacion (nombre, direccion, latitud, longitud) VALUES ('Berea', 'Calle 1', -17.79976, -63.18077);")
+        db.execSQL("INSERT INTO Estacion (nombre, direccion, latitud, longitud) VALUES ('Alemana', 'Calle 2', -17.76784, -63.17067);")
+        db.execSQL("INSERT INTO Estacion (nombre, direccion, latitud, longitud) VALUES ('Estación Pirai', 'Av Roque Aguilera', -17.78593, -63.20438);")
+
+        // Bombas
+        db.execSQL("INSERT INTO Bomba (estacionId, tipoId, cantidad) VALUES (1, 1, 6);") // Berea - Gasolina
+        db.execSQL("INSERT INTO Bomba (estacionId, tipoId, cantidad) VALUES (2, 2, 3);") // Alemana - Diesel
+        db.execSQL("INSERT INTO Bomba (estacionId, tipoId, cantidad) VALUES (3, 1, 2);") // Pirai - Gasolina
+        db.execSQL("INSERT INTO Bomba (estacionId, tipoId, cantidad) VALUES (3, 2, 4);") // Pirai - Diesel
 
 
     }
