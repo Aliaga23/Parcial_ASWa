@@ -31,12 +31,6 @@ La app 🌐 **GasolineraV3** ayuda a los usuarios a:
 
 Todo el procesamiento se realiza **offline** con una base de datos SQLite embebida, inicializada con datos de ejemplo (ver [Modelo de datos](#modelo-de-datos-y-script-sql)).
 
-<p align="center">
- 
-  <img src="Screenshot_20250419_025058.png" width="240" />
-  <img src="Screenshot_20250419_025146.png" width="240" />
-</p>
-
 ---
 
 ## Arquitectura 3 capas
