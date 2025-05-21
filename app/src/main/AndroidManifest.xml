@@ -16,7 +16,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCMrcB-vDUCN6QCerTpezJ33s7nvZV42gk" />
+            android:value="Pongan su apikey no seas yesca" />
 
 
         <activity
