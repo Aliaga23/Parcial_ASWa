@@ -1,6 +1,6 @@
 # GasolineraAPP - Parcial de Arquitectura de Software(UAGRM) 
 ### Arquitectura Tres Capas
-> Consejo , la documentacion esta un poco mala asi que proximamente voy a subir lo correcto , lo malo va en los dos ultimos casos de uso.Fijense en el documento que voy a dejar en el repo.
+> Consejo , la documentacion esta un poco mala asi que proximamente voy a subir lo correcto , lo malo va en los dos ultimos casos de uso.Fijense en el documento que voy a dejar en el repo.Ah y pongan su APIKEY de google no sean duros.
 >
 > Aplicación Android (Kotlin) que permite administrar *estaciones*, *bombas*, *stock* de combustibles y la *fila de vehículos* mediante una **arquitectura en 3 capas** (Presentación ⇄ Negocio ⇄ Datos). El proyecto corresponde al parcial de la asignatura Arquitectura de Software Avanzada (ASWa).
 
