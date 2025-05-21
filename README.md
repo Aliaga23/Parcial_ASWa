@@ -164,7 +164,7 @@ Parcial_ASWa-main/
 
 ```bash
 # 1. Clonar el repositorio
-$ git clone https://github.com/usuario/Parcial_ASWa.git
+$ git clone https://github.com/Aliaga23/Parcial_ASWa.git
 $ cd Parcial_ASWa
 
 # 2. Abrir con Android Studio Hedgehog (o superior)
