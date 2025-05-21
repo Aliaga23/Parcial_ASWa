@@ -194,5 +194,6 @@ Requisitos mínimos:
 2. Sigue el patrón de 3 capas (no acceder a `datos` desde UI).
 3. Ejecuta `./gradlew lint ktlintCheck` antes de hacer *push*.
 4. Abre un *pull request* y describe tu cambio.
+---
 
 
